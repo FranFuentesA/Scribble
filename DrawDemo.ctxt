@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=DrawDemo()
+comment0.text=\r\n\ Prepare\ the\ drawing\ demo.\ Create\ a\ fresh\ canvas\ and\ make\ it\ visible.\r\n
+comment1.params=
+comment1.target=void\ drawSquare()
+comment1.text=\r\n\ Draw\ a\ square\ on\ the\ screen.\r\n
+comment2.params=
+comment2.target=void\ drawWheel()
+comment2.text=\r\n\ Draw\ a\ wheel\ made\ of\ many\ squares.\r\n
+comment3.params=pen
+comment3.target=void\ square(Pen)
+comment3.text=\r\n\ Draw\ a\ square\ in\ the\ pen's\ color\ at\ the\ pen's\ location.\r\n
+comment4.params=
+comment4.target=void\ colorScribble()
+comment4.text=\r\n\ Draw\ some\ random\ squiggles\ on\ the\ screen,\ in\ random\ colors.\r\n
+comment5.params=
+comment5.target=void\ clear()
+comment5.text=\r\n\ Clear\ the\ screen.\r\n
+comment6.params=x\ y
+comment6.target=void\ drawTriangle(int,\ int)
+comment6.text=\r\n\ Metodo\ que\ permite\ dibujar\ un\ triangulo,\ de\ color\ verde\r\n
+comment7.params=
+comment7.target=void\ drawPentagon()
+comment7.text=\r\n\ Metodo\ que\ permite\ dibujar\ un\ pentagono,\ de\ color\ verde\r\n
+numComments=8

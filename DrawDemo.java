@@ -73,11 +73,11 @@ public class DrawDemo
             int green = random.nextInt(256);
             int blue = random.nextInt(256);
             pen.setColor(new Color(red, green, blue));
-            
+
             pen.randomSquiggle();
         }
     }
-    
+
     /**
      * Clear the screen.
      */
@@ -85,7 +85,7 @@ public class DrawDemo
     {
         myCanvas.erase();
     }
-    
+
     /**
      * Metodo que permite dibujar un triangulo, de color verde
      */
@@ -96,7 +96,21 @@ public class DrawDemo
 
         for (int i=0; i<3; i++) {
             pen.move(100);
-            pen.turn(-120);
+            pen.turn(120);
+        }
+    }
+
+    /**
+     * Metodo que permite dibujar un pentagono, de color verde
+     */
+    public void drawPentagon()
+    {
+        Pen pen = new Pen(120, 160, myCanvas);
+        pen.setColor(Color.GREEN);
+
+        for (int i=0; i<5; i++) {
+            pen.move(40);
+            pen.turn(-72); //Especificamos el angulo
         }
     }
 }
