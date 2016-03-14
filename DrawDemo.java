@@ -113,8 +113,8 @@ public class DrawDemo
             pen.turn(-72); //Especificamos el angulo
         }
     }
-    
-        /**
+
+    /**
      * Metodo que permite dibujar un poligono , de color verde
      */
     public void drawPolygon(int n)
@@ -124,8 +124,26 @@ public class DrawDemo
 
         for (int i=0; i<n; i++) {
             pen.move(60);
-            pen.turn((360/n));
+            pen.turn((360/n));//FORMULA 
         }
     }
-}
+    
+    /**
+     * Metodo que permite dibujar una espiral
+     */
+    public void drawSpiral() {
+        Pen pen = new Pen(260, 210, myCanvas);
+        pen.setColor(Color.BLACK);  
+        
+        int giro = 20;
 
+        for (int i = 0; i < 60; i++) {
+            pen.move(giro); 
+            pen.turn(90);
+            pen.move(giro);    
+            pen.turn(90);
+            giro = giro + 20;            
+        }
+
+    }
+}
