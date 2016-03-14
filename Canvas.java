@@ -124,7 +124,7 @@ public class Canvas
         Ellipse2D.Double circle = new Ellipse2D.Double(xPos, yPos, diameter, diameter);
         fill(circle);
     }
-
+    
     /**
      * Fill the internal dimensions of the given rectangle with the current 
      * foreground color of the canvas. This is a convenience method. A similar 
